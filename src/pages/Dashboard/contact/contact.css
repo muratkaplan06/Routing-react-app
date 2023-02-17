@@ -1,0 +1,27 @@
+.form {
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  background-color: skyblue;
+  position: relative;
+  margin: auto;
+}
+.form > div > label {
+  display: block;
+}
+.form > div {
+  width: 300px;
+
+  position: relative;
+  margin: auto;
+}
+.error-message {
+  color: red;
+}
+input.input-error,
+select.input-error {
+  border-color: #fc8181;
+}
+button:disabled {
+  opacity: 0.35;
+}
