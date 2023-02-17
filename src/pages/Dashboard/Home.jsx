@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Home() {
-  return <div>Anasayfa</div>
+  return <div><a href="#">Learn React</a></div>
 }
 
 export default Home
